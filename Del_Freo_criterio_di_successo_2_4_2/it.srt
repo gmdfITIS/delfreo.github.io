@@ -1,0 +1,132 @@
+1
+00:00:01,000 –> 00:00:08
+Web Content Accessibility Guidelines WCAG 2.1 a cura di Gian Marco Del Freo
+
+2
+00:00:10 –> 00:00:13
+Il criterio che andrò ad esporre sarà il criterio di successo 2.4.2
+
+3
+00:00:14 –> 00:00:19
+Ho deciso di suddividere questa presentazione in quattro fasi
+
+4
+00:00:15 –> 00:00:21
+La prima che è la fase fondamentale, è l'intento del criterio
+
+5
+00:00:22 –> 00:00:25
+La seconda fase, tratta della descrizione del criterio
+
+6
+00:00:23 -> 00:00:35
+Nella terza fase spiegherò quali benefici possono trarre gli utenti da questo criterio 
+
+7
+00:00:24 -> 00:00:39
+Mentre la quarta sezione argomenterà l'argomentazione del criterio al lato pratico
+
+8
+00:00:41 -> 00:00:52
+Intento del criterio: Lo scopo di questo criterio di successo è di aiutare gli utenti a trovare contenuti e orientarsi al loro interno garantendo che ogni pagina Web abbia un titolo descrittivo. 
+
+9
+00:00:53 -> 00:01:00
+I titoli identificano la posizione corrente senza richiedere agli utenti di leggere o interpretare il contenuto della pagina. 
+
+10
+00:01:01 -> 00:01:11
+Quando i titoli vengono visualizzati nelle mappe del sito o negli elenchi dei risultati della ricerca, gli utenti possono identificare più rapidamente il contenuto di cui hanno bisogno. 
+
+11
+00:01:12 -> 00:01:19
+I programmi di utenza rendono il titolo della pagina facilmente disponibile all'utente per l'identificazione della pagina.
+
+12
+00:01:20 -> 00:01:38
+Descrizione del criterio: Tutti i documenti HTML e XHTML (eXtensible HyperText Markup Language), compresi quelli nei singoli frame in un set di frame, hanno un title elemento nella head sezione che definisce in una semplice frase lo scopo del documento.
+
+13
+00:01:38 -> 00:01:48
+Ciò consente agli utenti di orientarsi rapidamente all'interno del sito senza dover cercare informazioni sull'orientamento nel corpo della pagina.
+
+14
+00:01:39 -> 00:02:01
+Si noti che l' title elemento (obbligatorio) , che appare solo una volta in un documento, è diverso dall attributo title, che può essere applicato a quasi tutti gli elementi HTML e XHTML.
+
+15
+00:02:03 -> 00:02:07
+Vantaggi e benefici del criterio, questa sezione è una delle più importanti
+
+16
+00:02:07 -> 00:02:16
+Il primo beneficio: Questo criterio è vantaggioso per tutti gli utenti nel consentire agli utenti di identificare rapidamente e facilmente 
+
+17
+00:02:17 -> 00:02:22
+se le informazioni contenute nella pagina Web sono rilevanti per le loro esigenze.
+
+18
+00:02:23 -> 00:02:32
+Le persone con disabilità visive trarranno vantaggio dalla possibilità di differenziare i contenuti quando sono aperte più pagine Web.
+
+19
+00:02:33 -> 00:02:44
+Anche le persone con disabilità cognitive, memoria a breve termine limitata e difficoltà di lettura traggono vantaggio dalla capacità di identificare il contenuto in base al titolo.
+
+20
+00:02:45 -> 00:02:56
+Questo criterio è vantaggioso anche per le persone con gravi disabilità motorie la cui modalità operativa si basa sull'audio durante la navigazione tra le pagine Web.
+
+21
+00:02:58 -> 00:03:11
+Comprensione del criterio di successo 2.4.2, pagina introduttiva: L'obiettivo di questa tecnica, è di assegnare a ciascuna pagina web un titolo descrittivo
+
+22
+00:03:12 -> 00:03:18
+I titoli infatti aiutano gli utenti a trovare contenuti e orientarsi quindi al loro interno
+
+23
+00:03:19 -> 00:03:26
+Ora andiamo a vedere i requisiti che servono appunto ad una pagina web per rispettare questo criterio cioè il criterio di titolazione
+
+24
+00:03:27 -> 00:03:41
+Il primo criterio naturalmente è verificare che la pagina web abbia un titolo definito all'interno della tag "<head>" attraverso la tag "<title>"
+
+25
+00:03:42 -> 00:03:52
+Il titolo ovviamente deve rappresentare in breve quello che è il contenuto della pagina, quindi stiamo parlando del secondo requisito
+
+26
+00:03:43 -> 00:04:00
+Quindi, verificare che il titolo sia pertinente al contenuto della pagina web
+
+27
+00:04:01 -> 00:04:17
+Qui, ho "creato" un blog, che tratta di alcuni articoli a proposito del web, quindi per rappresentare il titolo della pagina ho scritto "Blog, varie ed eventuali dal mondo del web"
+
+28
+00:04:18 -> 00:04:38
+L'ultimo requisito è verificare che la pagina web possa essere identificata attraverso il titolo, questo si riferisce soprattutto all’attributo " title="" " che ora vediamo
+
+29
+00:04:39 -> 00:04:40
+Si trova in questo caso nel menù di navigazione, infatti questo particolare attributo specifica delle informazioni sull'elemento
+
+30
+00:00:41 -> 00:04:52
+Le informazioni, vengono spesso visualizzate come testo di una descrizione comandi, nel momento in cui il mouse si sposta sull'elemento, questo serve per tanto ai software(screen reader ecc.)
+
+31
+00:04:53 -> 00:05:00
+Di reperire le informazioni più rapidamente all'interno degli indirizzi della pagina o all'interno di ulteriori elementi.
+
+
+
+
+
+
+
+
+

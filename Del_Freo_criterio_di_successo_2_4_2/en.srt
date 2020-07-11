@@ -1,0 +1,131 @@
+1
+00: 00: 01,000 -> 00:00:08
+Web Content Accessibility Guidelines WCAG 2.1 by Gian Marco Del Freo
+
+2
+00:00:10 -> 00:00:13
+The criterion that I will explain will be the success criterion 2.4.2
+
+3
+00:00:14 -> 00:00:19
+I decided to split this presentation into four stages
+
+4
+00:00:15 -> 00:00:21
+The first which is the fundamental phase, is the intent of the criterion
+
+5
+00:00:22 -> 00:00:25
+The second phase deals with the description of the criterion
+
+6
+00:00:23 -> 00:00:35
+In the third phase I will explain what benefits users can derive from this criterion
+
+7
+00:00:24 -> 00:00:39
+While the fourth section will argue the argument of the criterion on the practical side
+
+8
+00:00:41 -> 00:00:52
+Intent of the criterion: The purpose of this success criterion is to help users find content and find their way around it by ensuring that each web page has a descriptive title.
+
+9
+00:00:53 -> 00:01:00
+Titles identify your current location without requiring users to read or interpret the content of the page.
+
+10
+00:01:01 -> 00:01:11
+When titles appear on site maps or search results lists, users can identify the content they need more quickly.
+
+11
+00:01:12 -> 00:01:19
+User programs make the page title easily available to the user for identifying the page.
+
+12
+00:01:20 -> 00:01:38
+Policy description: All HTML and XHTML (eXtensible HyperText Markup Language) documents, including those in individual frames in a frame set, have a title element in the head section that defines the purpose of the document in a simple sentence.
+
+13
+00:01:38 -> 00:01:48
+This allows users to quickly find their way around the site without having to search for orientation information in the body of the page.
+
+14
+00:01:39 -> 00:02:01
+Note that the title element (mandatory), which appears only once in a document, is different from the title attribute, which can be applied to almost all HTML and XHTML elements.
+
+15
+00:02:03 -> 00:02:07
+Advantages and benefits of the criterion, this section is one of the most important
+
+16
+00:02:07 -> 00:02:16
+The first benefit: This criterion is beneficial for all users in allowing users to identify quickly and easily
+
+17
+00:02:17 -> 00:02:22
+if the information on the web page is relevant to their needs.
+
+18
+00:02:23 -> 00:02:32
+People with visual impairments will benefit from the ability to differentiate content when multiple web pages are open.
+
+19
+00:02:33 -> 00:02:44
+People with cognitive disabilities, limited short-term memory, and reading difficulties also benefit from the ability to identify content by title.
+
+20
+00:02:45 -> 00:02:56
+This criterion is also advantageous for people with severe motor disabilities whose operating mode is based on audio while browsing the Web pages.
+
+21
+00:02:58 -> 00:03:11
+Understanding the success criterion 2.4.2, introductory page: The goal of this technique is to give each web page a descriptive title
+
+22
+00:03:12 -> 00:03:18
+The titles in fact help users find content and therefore orient themselves within them
+
+23
+00:03:19 -> 00:03:26
+Now let's see the requirements that are needed precisely for a web page to comply with this criterion, that is, the titration criterion
+
+24
+00:03:27 -> 00:03:41
+The first criterion of course is to verify that the web page has a title defined within the "<head>" tag through the "<title>" tag.
+
+25
+00:03:42 -> 00:03:52
+The title obviously must briefly represent what the content of the page is, so we are talking about the second requirement
+
+26
+00:03:43 -> 00:04:00
+Then, check that the title is relevant to the content of the web page
+
+27
+00:04:01 -> 00:04:17
+Here, I "created" a blog, which deals with some articles about the web, so to represent the title of the page I wrote "Blog, various and any from the world of the web"
+
+28
+00:04:18 -> 00:04:38
+The last requirement is to verify that the web page can be identified by the title, this refers above all to the "title =" "" attribute that we now see
+
+29
+00:04:39 -> 00:04:40
+It is found in this case in the navigation menu, in fact this particular attribute specifies information about the element
+
+30
+00:00:41 -> 00:04:52
+The information is often displayed as the text of a tooltip, when the mouse is moved over the element, this is therefore used by the software (screen reader etc.)
+
+31
+00:04:53 -> 00:05:00
+To find information more quickly within the addresses of the page or within additional elements.
+
+
+
+
+
+
+
+
