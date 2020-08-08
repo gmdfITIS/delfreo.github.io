@@ -1,0 +1,123 @@
+1
+00: 00: 01,000 -> 00: 00: 08,000
+Web Content Accessibility Guidelines WCAG 2.1 by Gian Marco Del Freo
+
+2
+00: 00: 08,000 -> 00: 00: 13,000
+The criterion that I am going to expose will be the success criterion 2.4.2
+
+3
+00: 00: 14,000 -> 00: 00: 19,000
+I have decided to break this presentation into four stages
+
+4
+00: 00: 15,000 -> 00: 00: 21,000
+The first, which is the fundamental phase, is the intent of the criterion
+
+5
+00: 00: 22,000 -> 00: 00: 25,000
+The second phase deals with the description of the criterion
+
+6
+00: 00: 23,000 -> 00: 00: 35,000
+In the third step I will explain what benefits users can derive from this criterion
+
+7
+00: 00: 24,000 -> 00: 00: 39,000
+While the fourth section will discuss the argument of the criterion on the practical side
+
+8
+00: 00: 41,000 -> 00: 00: 52,000
+Policy intent: The purpose of this success criterion is to help users find and navigate content by ensuring that each web page has a descriptive title.
+
+9
+00: 00: 53,000 -> 00: 01: 00,000
+Headings identify your current location without requiring users to read or interpret the page content.
+
+10
+00: 01: 01,000 -> 00: 01: 11,000
+When headlines appear in sitemaps or search results lists, users can more quickly identify the content they need.
+
+11
+00: 01: 12,000 -> 00: 01: 19,000
+User programs make the page title easily available to the user for page identification.
+
+12
+00: 01: 20,000 -> 00: 01: 38,000
+Policy description: All HTML and XHTML (eXtensible HyperText Markup Language) documents, including those in individual frames in a frameset, have a title element in the head section that defines the purpose of the document in one simple sentence.
+
+13
+00: 01: 38,000 -> 00: 01: 48,000
+This allows users to quickly find their way around the site without having to search for orientation information in the body of the page.
+
+14
+00: 01: 39,000 -> 00: 02: 01,000
+Note that the (mandatory) title element, which appears only once in a document, is different from the title attribute, which can be applied to almost any HTML and XHTML element.
+
+15
+00: 02: 03,000 -> 00: 02: 07,000
+Advantages and benefits of the criterion, this section is one of the most important
+
+16
+00: 02: 07,000 -> 00: 02: 16,000
+The first benefit: This criterion is beneficial to all users in allowing users to identify quickly and easily
+
+17
+00: 02: 17,000 -> 00: 02: 22,000
+if the information contained on the web page is relevant to their needs.
+
+18
+00: 02: 23,000 -> 00: 02: 32,000
+People with visual impairments will benefit from being able to differentiate content when multiple web pages are open.
+
+19
+00: 02: 33,000 -> 00: 02: 44,000
+People with cognitive disabilities, limited short-term memory, and reading difficulties also benefit from the ability to identify content by title.
+
+20
+00: 02: 45,000 -> 00: 02: 56,000
+This criterion is also beneficial for people with severe motor disabilities whose operating mode is based on audio when browsing web pages.
+
+21
+00: 02: 58,000 -> 00: 03: 11,000
+Understanding Success Criterion 2.4.2, introductory page: The goal of this technique is to give each web page a descriptive title
+
+22
+00: 03: 12,000 -> 00: 03: 18,000
+In fact, titles help users find content and thus orient themselves within them
+
+23
+00: 03: 19,000 -> 00: 03: 26,000
+Now let's see the requirements that a web page needs to respect this criterion, that is the titling criterion
+
+24
+00: 03: 27,000 -> 00: 03: 41,000
+The first criterion of course is to verify that the web page has a title defined within the "<head>" tag through the "<title>" tag
+
+25
+00: 03: 42,000 -> 00: 03: 52,000
+The title obviously needs to briefly represent what the page content is, so we're talking about the second requirement
+
+26
+00: 03: 43,000 -> 00: 04: 00,000
+Then, check that the title is relevant to the content of the web page
+
+27
+00: 04: 01,000 -> 00: 04: 17,000
+Here, I "created" a blog, which deals with some articles about the web, so to represent the title of the page I wrote "Blog, various and possible from the world of the web"
+
+28
+00: 04: 18,000 -> 00: 04: 38,000
+The last requirement is to verify that the web page can be identified through the title, this mainly refers to the "title =" "" attribute that we now see
+
+29
+00: 04: 39,000 -> 00: 04: 40,000
+In this case it is found in the navigation menu, in fact this particular attribute specifies the information about the element
+
+30
+00: 00: 41,000 -> 00: 04: 52,000
+The information is often displayed as the text of a tooltip, when the mouse moves over the element, this is therefore useful for software (screen readers etc.)
+
+31
+00: 04: 53,000 -> 00: 05: 00,000
+To find information more quickly
