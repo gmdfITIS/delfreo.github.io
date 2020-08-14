@@ -1,4 +1,4 @@
 #### Gian Marco Del Freo
-## Repository
+## GitHub Pages
 
 [My GitHub Pages](https://gmdfitis.github.io/delfreo.github.io/)
